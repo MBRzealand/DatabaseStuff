@@ -1,0 +1,67 @@
+I used chinook DB to do the assignment:
+
+
+
+INSERT INTO queries, som gemmer 3 nye Artist i databasen:
+
+INSERT INTO artists (Name)
+VALUES ('Dio')
+
+INSERT INTO artists (Name)
+VALUES ('Eden´s Curse')
+
+INSERT INTO artists (Name)
+VALUES ('Rise to Fall')
+
+
+
+INSERT INTO queries, som gemmer 5 nye Genrer i databasen:
+
+INSERT INTO genres (Name)
+VALUES ('Emo')
+
+INSERT INTO genres (Name)
+VALUES ('Hard Rock')
+
+INSERT INTO genres (Name)
+VALUES 'Nu Metal')
+
+INSERT INTO genres (Name)
+VALUES 'Rap')
+
+INSERT INTO genres (Name)
+VALUES 'Power Metal')
+
+
+
+1 SELECT query, som viser indholdet af Genrer-tabellen i ABC-rækkefølge:
+
+SELECT Name FROM genres ORDER BY Name
+
+
+
+1 UPDATE query, som opdaterer navnet af en Artist:
+
+UPDATE artists
+set Name = 'Eclipse'
+WHERE Name = 'Dio'
+
+
+
+1 DELETE query, som sletter en opskrift:
+
+DELETE FROM artists WHERE Name = 'Eclipse' AND ArtistId = '279'
+
+
+
+1 SELECT query, som viser indholdet af Artist-tabellen i ABC-rækkefølge:
+
+SELECT Name FROM artists ORDER BY Name
+
+
+
+1 SELECT query, som viser indholdet af Genrer-tabellen i faldende ID rækkefølge:
+
+SELECT * FROM genres ORDER BY GenreId
+
+
